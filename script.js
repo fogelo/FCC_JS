@@ -110,7 +110,7 @@ for(let i = 1; i<=5;i++) {
 
 /*!4.Iterate Odd Numbers With a For Loop2*/
 
-const myArray = [];
+/*const myArray = [];
 
 // Only change code below this line
 
@@ -118,6 +118,14 @@ for (let i = 1;i<=9;i+=2) {
     myArray.push(i)
 }
 
-console.log(myArray)
+console.log(myArray)*/
 
+/*!5. Count Backwards With a For Loop*/
 
+const myArray = [];
+
+// Only change code below this line
+
+for(let i = 9;i >= 1;i -= 2){
+    myArray.push(i)
+}

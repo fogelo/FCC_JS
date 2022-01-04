@@ -55,6 +55,7 @@ console.log(count)
 
 /*!2. Record Collection*/
 
+/*
 const recordCollection = {
     2548: {
         albumTitle: 'Slippery When Wet',
@@ -95,5 +96,14 @@ function updateRecords(records, id, prop, value) {
     }
         return records;
 }
+*/
 
+/*!3.Iterate Odd Numbers With a For Loop*/
 
+const myArray = [];
+
+// Only change code below this line
+
+for(let i = 1; i<=5;i++) {
+    myArray.push(i)
+}

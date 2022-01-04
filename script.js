@@ -133,6 +133,7 @@ for(let i = 9;i >= 1;i -= 2){
 
 /*!6.Iterate Through an Array with a For Loop*/
 
+/*
 const myArr = [2, 3, 4, 5, 6];
 
 // Only change code below this line
@@ -142,4 +143,20 @@ for (let i = 0; i < myArr.length; i++) {
     total = total + myArr[i]
 }
 
-console.log(total)
+console.log(total)*/
+
+/*§7. Nesting For Loops*/
+
+function multiplyAll(arr) {
+    let product = 1;
+    // Only change code below this line
+    for (let i = 0; i < arr.length; i++) {
+        for (let j = 0; j < arr[i].length; j++) {
+            product = product * arr[i][j]
+        }
+    }
+    // Only change code above this line
+    return product;
+}
+
+multiplyAll([[1, 2], [3, 4], [5, 6, 7]]);

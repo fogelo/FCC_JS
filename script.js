@@ -122,10 +122,24 @@ console.log(myArray)*/
 
 /*!5. Count Backwards With a For Loop*/
 
+/*
 const myArray = [];
 
 // Only change code below this line
 
 for(let i = 9;i >= 1;i -= 2){
     myArray.push(i)
+}*/
+
+/*!6.Iterate Through an Array with a For Loop*/
+
+const myArr = [2, 3, 4, 5, 6];
+
+// Only change code below this line
+let total = 0
+
+for (let i = 0; i < myArr.length; i++) {
+    total = total + myArr[i]
 }
+
+console.log(total)
